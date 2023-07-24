@@ -1,0 +1,84 @@
+/*Start Header */
+header {
+	padding: 20px;
+}
+
+header .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header .container .logo img {
+	width: 60px;
+}
+
+header .container nav {
+	position: relative;
+}
+
+header .container nav .icon {
+	width: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+}
+
+header .container nav:hover .icon span:nth-child(2) {
+	width: 100px;
+}
+
+header .container nav:hover ul {
+	right: 0;
+}
+
+header .container nav .icon span {
+	height: 2px;
+	margin-bottom: 5px;
+	background-color: var(--second-color);
+}
+
+header .container nav .icon span:first-child {
+	width: 100%;
+}
+
+header .container nav .icon span:nth-child(2) {
+	width: 60%;
+	transition: 0.5s;
+}
+
+header .container nav .icon span:last-child {
+	width: 100%;
+}
+
+header .container nav ul {
+	position: fixed;
+	width: 30%;
+	height: 100%;
+	background-color: var(--second-color);
+	top: -16px;
+	right: -30%;
+	transition: 0.5s;
+}
+
+header .container nav ul li {
+	position: relative;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50% , -20%);
+	margin-bottom: 50px;
+}
+
+header .container nav ul li a {
+	font-size: 20px;
+	font-weight: 300;
+	color: var(--white-color);
+}
+
+header .container nav ul li a.active,
+header .container nav ul li:hover a
+{
+	color: var(--main-color);
+}
+
+/*End Header */

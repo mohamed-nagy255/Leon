@@ -1,0 +1,80 @@
+/*Variables*/
+:root {
+	--main-color: #10cab7;
+	--second-color: #2c4755;
+	--gray-color: #f6f6f6;
+	--white-color: #ffffff;
+}
+/*End Variables*/
+
+/*Global Rules*/
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Almarai', sans-serif;
+	font-family: 'Work Sans', sans-serif;
+}
+
+/*
+===========================
+======== Media Query ======
+===========================
+*/
+
+.container {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+/*Small*/
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+/*Midum*/
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+/*Larg*/
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+/*X-Large*/
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+/*XX-Large*/
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+/*End Global Rules*/
+
