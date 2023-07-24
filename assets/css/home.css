@@ -73,6 +73,7 @@ header .container nav ul li a {
 	font-size: 20px;
 	font-weight: 300;
 	color: var(--white-color);
+	text-transform: capitalize;
 }
 
 header .container nav ul li a.active,
@@ -82,3 +83,42 @@ header .container nav ul li:hover a
 }
 
 /*End Header */
+
+/* Start Landing */
+section.landing {
+	height: 60vh;
+	background-image: url('../images/landing.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom center;
+	background-attachment: fixed;
+}
+
+section.landing .text {
+	position: relative;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%, -20%);
+	-webkit-transform: translate(-50%, -20%);
+	-moz-transform: translate(-50%, -20%);
+	-ms-transform: translate(-50%, -20%);
+	-o-transform: translate(-50%, -20%);
+	max-width: 30%;
+	text-align: center;
+}
+
+section.landing .text h1 {
+	margin: 0;
+	color: var(--main-color);
+	font-size: 50px;
+	font-weight: 500;
+	text-transform: capitalize;
+}
+
+section.landing .text p {
+	color: var(--gray-color);
+	font-size: 14px;
+	text-transform: capitalize;
+	line-height: 1.6;
+}
+/* End Landing */
