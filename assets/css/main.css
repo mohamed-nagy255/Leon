@@ -3,7 +3,9 @@
 	--main-color: #10cab7;
 	--second-color: #2c4755;
 	--gray-color: #f6f6f6;
+  --darh-gray-color: #666;
 	--white-color: #ffffff;
+  --space-section: 60px;
 }
 /*End Variables*/
 
@@ -19,6 +21,29 @@
 body {
 	font-family: 'Almarai', sans-serif;
 	font-family: 'Work Sans', sans-serif;
+}
+
+/* 
+==========================
+======= Head Section =====
+========================== 
+*/
+div.head-section {
+  text-align: center;
+}
+
+div.head-section h2 {
+  font-size: 60px;
+  font-weight: 800;
+  color: var(--gray-color);
+  text-transform: uppercase;
+  margin: 0;
+}
+
+div.head-section p {
+  color: var(--darh-gray-color);
+  text-transform: capitalize;
+  margin-top: -20px;
 }
 
 /*

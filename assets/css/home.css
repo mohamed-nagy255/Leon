@@ -129,12 +129,12 @@ section.features {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
 	grid-gap: 20px;
+	margin-bottom: var(--space-section);
 }
 
 section.features .feat {
 	padding: 30px;
 	text-align: center;
-	max-height: 30vh;
 }
 
 section.features .feat:nth-child(2) {
@@ -146,7 +146,7 @@ section.features .feat i {
 	color: var(--main-color);
 }
 
-section.features .feat h2 {
+section.features .feat h3 {
 	color: var(--second-color);
 	text-transform: capitalize;
 }
@@ -157,3 +157,8 @@ section.features .feat p {
 }
 /* End Featuers */
 
+/* Start Services */
+section.services {
+
+}
+/* End Services */
