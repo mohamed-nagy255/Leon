@@ -94,6 +94,10 @@ li {
 h3 {
 	margin: 0;
 }
+
+img {
+	overflow: hidden;
+}
 /*End Global Rules*/
 
 /* 

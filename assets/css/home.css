@@ -211,6 +211,9 @@ section.about .row .text hr {
 		text-align: center;
 		padding: 50px 0;
 	}
+	section.about .row .text hr {
+		margin: 0 auto;
+	}
 	section.about .row .image::before {
 		width: 60px;
 	}
